@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Student project website about Liverpool Football Club: history, trophies, legends and the anthem.">
+  <title>Liverpool FC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-wrap">
+      <a href="#home" class="logo">LIVERPOOL <span>FC</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+      <nav>
+        <ul id="navList">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#history">History</a></li>
+          <li><a href="#trophies">Trophies</a></li>
+          <li><a href="#anthem">Anthem</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <div id="home" class="page-section">
+    <div class="hero">
+      <h1>Welcome to Liverpool Football Club</h1>
+      <p>One of the most successful clubs in English football, based at Anfield in Liverpool, England.</p>
+      <a href="#trophies" class="btn">See Our Trophies</a>
+    </div>
+
+    <main>
+      <section>
+        <h2>About the Club</h2>
+        <p>Liverpool Football Club was founded in 1892 and plays its home matches at Anfield. The club competes in the English Premier League and is known worldwide for its passionate supporters, its red kit and its famous anthem, "You'll Never Walk Alone".</p>
+        <div class="home-photo">
+          <img src="Anfield stadium.jpeg" alt="Liverpool FC at Anfield">
+        </div>
+      </section>
+
+      <section>
+        <h2>Club at a Glance</h2>
+        <div class="stats">
+          <div class="stat"><strong>1892</strong>Founded</div>
+          <div class="stat"><strong>Anfield</strong>Home Ground</div>
+          <div class="stat"><strong>20</strong>League Titles</div>
+          <div class="stat"><strong>6</strong>European Cups</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Explore the Site</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>History</h3>
+            <p>From a founding in 1892 to European glory, plus the legends who made the club great.</p>
+            <p><a href="#history">Read more &rarr;</a></p>
+          </div>
+          <div class="card">
+            <h3>Trophies</h3>
+            <p>Every major honour the club has won, year by year.</p>
+            <p><a href="#trophies">View honours &rarr;</a></p>
+          </div>
+          <div class="card">
+            <h3>The Anthem</h3>
+            <p>Why Liverpool fans sing "You'll Never Walk Alone" before every home game.</p>
+            <p><a href="#anthem">Find out why &rarr;</a></p>
+          </div>
+          <div class="card">
+            <h3>Contact</h3>
+            <p>Have a question or feedback? Send us a message.</p>
+            <p><a href="#contact">Get in touch &rarr;</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="history" class="page-section">
+    <div class="page-banner photo-banner history-banner">
+      <img class="banner-background" src="Anfield.jpg" alt="">
+      <div class="banner-content">
+        <h1>Our History</h1>
+        <p>Key moments in the story of the club</p>
+      </div>
+    </div>
+
+    <main>
+      <section>
+        <h2>Timeline</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>1892: The Club Is Founded</h3>
+            <p>Liverpool FC was formed in March 1892 after a dispute over the rent of Anfield. John Houlding founded the new club to play at the ground.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>1959: Bill Shankly Arrives</h3>
+            <p>Manager Bill Shankly transformed the club, building the foundation of its modern identity and winning league titles and the FA Cup.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>1977: First European Cup</h3>
+            <p>Liverpool won its first European Cup, followed by further European successes in 1978, 1981 and 1984 under managers Bob Paisley and Joe Fagan.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>2005: The Istanbul Final</h3>
+            <p>Liverpool came back from three goals down in the Champions League final to win the competition for the fifth time.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>2019: Sixth European Title</h3>
+            <p>The club won the Champions League for a sixth time, beating Tottenham Hotspur in the final in Madrid.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>2020 and 2025: League Champions</h3>
+            <p>Liverpool ended a 30-year wait for the league title in 2020 and won the Premier League again in 2025 to reach 20 league titles.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Legends of the Club</h2>
+        <p class="hint">Club photos are shown below. You can still click a photo slot to replace an image from your computer.</p>
+
+        <div class="card feature">
+          <div>
+            <label class="photo-slot">
+              <input type="file" accept="image/*" class="photo-input">
+              <span class="photo-hint" hidden>+ Add photo</span>
+              <img src="Mohamed Salah.jpg" alt="Mohamed Salah">
+            </label>
+          </div>
+          <div>
+            <h3>Mohamed Salah</h3>
+            <p class="role">Forward &middot; Egypt &middot; Liverpool 2017&ndash;2026</p>
+            <p>Mohamed Salah joined Liverpool from Roma in 2017 and became one of the greatest forwards in the club's history. The club's own record shows 255 goals and 119 assists in 435 appearances, making him the third-highest goalscorer in Liverpool's history behind Ian Rush and Roger Hunt.</p>
+            <ul class="facts">
+              <li>Won the Premier League twice (2019&ndash;20 and 2024&ndash;25) and the Champions League in 2019.</li>
+              <li>Also won the FA Cup, two League Cups, the FIFA Club World Cup and the UEFA Super Cup.</li>
+              <li>Premier League Golden Boot winner four times (2017&ndash;18, 2018&ndash;19, 2021&ndash;22, 2024&ndash;25).</li>
+              <li>Three-time PFA Players' Player of the Year and winner of the FIFA Puskas Award in 2018.</li>
+            </ul>
+            <p class="small">Statistics are from the club's article marking his departure; they cover his time up to the announcement.</p>
+            <h4>Photo gallery</h4>
+            <div class="gallery">
+              <label class="photo-slot small-slot"><input type="file" accept="image/*" class="photo-input"><span class="photo-hint" hidden>+ Add</span><img src="Mohammed Salah after winning the Champions League.jpg" alt="Mohammed Salah after winning the Champions League"></label>
+              <label class="photo-slot small-slot"><input type="file" accept="image/*" class="photo-input"><span class="photo-hint" hidden>+ Add</span><img src="Salah (EGYPT KING) 4k Wallpaper.jpg" alt="Salah Egypt King wallpaper"></label>
+              <label class="photo-slot small-slot"><input type="file" accept="image/*" class="photo-input"><span class="photo-hint" hidden>+ Add</span><img src="الملهم ✨Insuring_🏆🥇_%23محمد_صلاح _ %23mosalah.jpg" alt="Mohamed Salah inspired artwork"></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid legends">
+          <div class="card">
+            <label class="photo-slot"><input type="file" accept="image/*" class="photo-input"><span class="photo-hint" hidden>+ Add photo</span><img src="Kenny Dalglish.jpg" alt="Kenny Dalglish"></label>
+            <h3>Kenny Dalglish</h3>
+            <p>Player and later manager, one of the most decorated figures in the club's history.</p>
+          </div>
+          <div class="card">
+            <label class="photo-slot"><input type="file" accept="image/*" class="photo-input"><span class="photo-hint" hidden>+ Add photo</span><img src="Ian Rush MBE.jpg" alt="Ian Rush MBE"></label>
+            <h3>Ian Rush</h3>
+            <p>The club's record goalscorer across all competitions.</p>
+          </div>
+          <div class="card">
+            <label class="photo-slot"><input type="file" accept="image/*" class="photo-input"><span class="photo-hint" hidden>+ Add photo</span><img src="Steven Gerrard MBE and the Liverpool FC team….jpg" alt="Steven Gerrard MBE and the Liverpool FC team"></label>
+            <h3>Steven Gerrard</h3>
+            <p>Long-serving captain and a symbol of the club in the 2000s.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Anfield</h2>
+        <p>Anfield has been the club's home since its founding. Its famous Kop stand is known for the atmosphere created by supporters, and the stadium holds over 60,000 spectators after recent expansion.</p>
+      </section>
+    </main>
+  </div>
+
+  <div id="trophies" class="page-section">
+    <div class="page-banner photo-banner trophies-banner">
+      <img class="banner-background" src="./Liverpool%20trophies.jpg" alt="">
+      <div class="banner-content">
+        <h1>Trophies</h1>
+        <p>The honours that make Liverpool one of the most successful clubs in England</p>
+      </div>
+    </div>
+
+    <main>
+      <section>
+        <h2>Honours Summary</h2>
+        <div class="stats">
+          <div class="stat"><strong>20</strong>League Titles</div>
+          <div class="stat"><strong>8</strong>FA Cups</div>
+          <div class="stat"><strong>10</strong>League Cups</div>
+          <div class="stat"><strong>6</strong>European Cups</div>
+          <div class="stat"><strong>3</strong>UEFA Cups</div>
+          <div class="stat"><strong>4</strong>UEFA Super Cups</div>
+          <div class="stat"><strong>1</strong>Club World Cup</div>
+          <div class="stat"><strong>16</strong>Community Shields</div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="anthem" class="page-section">
+    <div class="page-banner photo-banner anthem-banner">
+      <img class="banner-background" src="You will never walk alone liverpool fans.jpg" alt="">
+      <div class="banner-content">
+        <h1>"You'll Never Walk Alone"</h1>
+        <p>Why Liverpool fans sing the anthem</p>
+      </div>
+    </div>
+
+    <main>
+      <section>
+        <h2>Where the Song Comes From</h2>
+        <p>"You'll Never Walk Alone" was written by Richard Rodgers and Oscar Hammerstein II for the 1945 musical <em>Carousel</em>. In 1963, the Liverpool band Gerry and the Pacemakers recorded their own version, and it reached number one in the UK charts.</p>
+      </section>
+
+      <section>
+        <h2>How It Became Liverpool's Anthem</h2>
+        <p>In the early 1960s, the songs in the top ten were played over the speakers at Anfield before matches, and the fans on the Kop sang along. When the song dropped out of the charts, the supporters kept singing it, and it became part of match day. Manager Bill Shankly also embraced it, and the words are now written on the Shankly Gates outside the ground.</p>
+      </section>
+
+      <section>
+        <h2>Why Fans Sing It</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>A message of hope</h3>
+            <p>The song is about carrying on through hard times with hope. Fans sing it to show that the team will never be left to face a challenge alone.</p>
+          </div>
+          <div class="card">
+            <h3>Unity</h3>
+            <p>Thousands of supporters sing together before kick-off, which reminds everyone in the ground that the club is a community, not just a team.</p>
+          </div>
+          <div class="card">
+            <h3>Remembrance</h3>
+            <p>After the Hillsborough disaster in 1989, in which 97 Liverpool supporters died, the song took on a deeper meaning of solidarity and remembrance for the club and the city.</p>
+          </div>
+          <div class="card">
+            <h3>Tradition</h3>
+            <p>It is sung before every home game, handed down from one generation of fans to the next.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="contact" class="page-section">
+    <div class="page-banner">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you</p>
+    </div>
+
+    <main>
+      <form id="contactForm" novalidate>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Your name">
+        <div class="error" id="nameError"></div>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="you@example.com">
+        <div class="error" id="emailError"></div>
+
+        <label for="topic">Topic</label>
+        <select id="topic">
+          <option value="">-- Select a topic --</option>
+          <option>General enquiry</option>
+          <option>Tickets</option>
+          <option>Feedback</option>
+        </select>
+        <div class="error" id="topicError"></div>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Write your message here"></textarea>
+        <div class="error" id="messageError"></div>
+
+        <button type="submit" class="btn">Send Message</button>
+        <div class="success" id="successMsg"></div>
+      </form>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Liverpool FC Student Project. This is an unofficial website created for a college assignment and is not affiliated with Liverpool Football Club.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
